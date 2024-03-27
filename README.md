@@ -13,7 +13,10 @@ and send to all your hosts from the specified sender which you will be asked to 
     npm i xrpl@2.14.0
     npm i ripple-binary-codec@2.0.0
     npm i evernode-js-client@0.6.34
-
+# In case of conflicts
+    curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
+    nvm install 20
+    nvm install-latest-npm
 # Run
     node topup.js
 
