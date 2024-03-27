@@ -6,7 +6,7 @@ and send to all your hosts from the specified sender which you will be asked to 
 
 # Setup
 
-    gitclone https://github.com/EpicShah/TopUpEvernodeHosts.git 
+    git clone https://github.com/EpicShah/TopUpEvernodeHosts.git 
     cd TopUpEvernodeHosts
     npm install
     rm -rf node_modules
